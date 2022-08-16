@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/boss-react/static/css/main.5bb598f4.css",
+    "main.js": "/boss-react/static/js/main.e2c74eeb.js",
+    "index.html": "/boss-react/index.html",
+    "main.5bb598f4.css.map": "/boss-react/static/css/main.5bb598f4.css.map",
+    "main.e2c74eeb.js.map": "/boss-react/static/js/main.e2c74eeb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5bb598f4.css",
+    "static/js/main.e2c74eeb.js"
+  ]
+}
