@@ -1,3 +1,5 @@
-export default function PageElement() {
-	return <h1>Hi</h1>;
+import MainPage from "./landingPage/MainPage";
+
+export default function LandingPage() {
+	return <MainPage />;
 }

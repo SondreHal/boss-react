@@ -4,3 +4,173 @@
 	box-sizing: border-box;
 	font-family: sans-serif;
 }
+
+body {
+	/*Box model stuff*/
+	margin: 30px 0 0 0;
+	background-color: rgb(20, 20, 20);
+	/*Typography stuff*/
+	font-family: sans-serif;
+	text-align: center;
+	color: rgb(219, 219, 219);
+}
+
+p {
+	/*Box model stuff*/
+	margin: 0;
+}
+
+.border {
+	/*Box model stuff*/
+	border: 1px solid grey;
+	border-radius: 6px;
+}
+
+/* manual */
+.manualContainer {
+	/*Display stuff*/
+	display: grid;
+	grid-template-columns: 1fr 600px 1fr;
+}
+
+.manual {
+	/*Display stuff*/
+	grid-column-start: 2;
+	background-color: rgb(27, 27, 27);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	justify-content: space-around;
+	width: 100%;
+}
+
+.manual h1 {
+	margin-bottom: 10px;
+	margin-top: 30px;
+}
+
+.manual div {
+	margin-top: 30px;
+}
+
+.manual button {
+	margin: 30px auto 30px auto;
+}
+
+.reset-btn {
+}
+
+/* information */
+.informationContainer {
+	/*Display stuff*/
+	display: grid;
+	grid-template-columns: 1fr 600px 1fr;
+	/*Box model stuff*/
+	margin-top: 30px;
+}
+
+.information {
+	/*Display stuff*/
+	display: grid;
+	grid-template-columns: 3fr 1fr 1.7fr 1.5fr 1.5fr;
+	grid-column-start: 2;
+	/*Box model stuff*/
+	width: 100%;
+	height: 30px;
+}
+
+.information p {
+	/*Display stuff*/
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	/*Box model stuff*/
+	background-color: rgb(27, 27, 27);
+	/*Typography stuff*/
+	color: grey;
+}
+
+/* bosses */
+.unique-boss {
+	/*Display stuff*/
+	display: grid;
+	grid-template-columns: 1fr 600px 1fr;
+	/*Box model stuff*/
+	height: 67px;
+	margin-top: 5px;
+}
+
+.boss-image {
+	/*Box model stuff*/
+	margin-left: auto;
+}
+
+.main-container {
+	/*Display stuff*/
+	display: grid;
+	grid-template-columns: 3fr 1fr 1.7fr 1.5fr 1.5fr;
+	grid-column-start: 2;
+	/*Box model stuff*/
+	width: 100%;
+}
+
+.main-container div,
+p {
+	/*Display stuff*/
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	/*Box model stuff*/
+	margin: 0;
+	background-color: rgb(27, 27, 27);
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+	/*Manipulations stuff*/
+	opacity: 1;
+}
+
+input[type="number"] {
+	/*Box model stuff*/
+	padding: 10%;
+	background-color: rgb(27, 27, 27);
+	/*Typography stuff*/
+	text-align: center;
+	color: white;
+}
+
+input:focus {
+	/*Box model stuff*/
+	outline: 0;
+}
+
+/* boss crystals */
+.crystal-img-amount {
+	/*Display stuff*/
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	/*Box model stuff*/
+	min-width: 100px;
+	margin: 5px auto 0 0;
+}
+
+@media (min-height: 1080px) {
+	.manualContainer {
+		grid-template-columns: 1fr 800px 1fr;
+	}
+	.unique-boss {
+		grid-template-columns: 1fr 800px 1fr;
+	}
+	.informationContainer {
+		grid-template-columns: 1fr 800px 1fr;
+	}
+
+	.information {
+		grid-template-columns: 2.8fr 1fr 1.7fr 0.9fr 0.9fr;
+	}
+	.main-container {
+		grid-template-columns: 2.8fr 1fr 1.7fr 0.9fr 0.9fr;
+	}
+}
