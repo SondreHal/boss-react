@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/boss-react/static/css/main.7320a628.css",
-    "main.js": "/boss-react/static/js/main.0fcc4e7c.js",
+    "main.css": "/boss-react/static/css/main.689f3358.css",
+    "main.js": "/boss-react/static/js/main.c869da22.js",
     "index.html": "/boss-react/index.html",
-    "main.7320a628.css.map": "/boss-react/static/css/main.7320a628.css.map",
-    "main.0fcc4e7c.js.map": "/boss-react/static/js/main.0fcc4e7c.js.map"
+    "main.689f3358.css.map": "/boss-react/static/css/main.689f3358.css.map",
+    "main.c869da22.js.map": "/boss-react/static/js/main.c869da22.js.map"
   },
   "entrypoints": [
-    "static/css/main.7320a628.css",
-    "static/js/main.0fcc4e7c.js"
+    "static/css/main.689f3358.css",
+    "static/js/main.c869da22.js"
   ]
 }
