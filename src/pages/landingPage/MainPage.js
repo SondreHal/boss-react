@@ -9,6 +9,7 @@ export default function BossList() {
 				difficulty={boss.difficulty}
 				mesos={boss.mesos}
 				type={boss.type}
+				order={boss.order}
 			/>
 		);
 	});
