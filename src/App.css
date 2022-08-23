@@ -24,6 +24,7 @@ p {
 	/*Box model stuff*/
 	border: 1px solid grey;
 	border-radius: 6px;
+	max-height: 40px;
 }
 
 /* manual */
@@ -97,6 +98,7 @@ p {
 	grid-template-columns: 1fr 600px 1fr;
 	/*Box model stuff*/
 	height: 67px;
+	place-items: center;
 }
 
 .O1 {

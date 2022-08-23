@@ -2,7 +2,7 @@ import BossesArray from "./mainPage/BossesArray";
 import BossesHtml from "./mainPage/BossesHtml";
 
 export default function BossList() {
-	const BossesMap = BossesArray.map((boss) => {
+	const BossesMap = BossesArray.map((boss, idx) => {
 		return (
 			<BossesHtml
 				name={boss.name}
@@ -10,6 +10,7 @@ export default function BossList() {
 				mesos={boss.mesos}
 				type={boss.type}
 				order={boss.order}
+				key={idx}
 			/>
 		);
 	});
